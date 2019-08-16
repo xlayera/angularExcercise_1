@@ -1,0 +1,13 @@
+<h1>Hijo works!</h1>
+
+<h2>{{nombre}}</h2>
+
+<ol>
+    <li>Metros del parque: {{metros}}</li>
+    <li>Vegetación del parque: {{vegetacion}}</li>
+    <li>
+        Estado del parque:
+        <span *ngIf="abierto == true">Abierto</span>
+        <span *ngIf="abierto != true">Cerrado</span>
+    </li>
+</ol>
